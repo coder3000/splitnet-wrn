@@ -15,9 +15,9 @@ python eval.py --checkpoint $checkpoint \
     --test_iter 100 \
     --num_residual_units 2 \
     --k 8 \
-    --ngroups1 1 \
+    --ngroups1 4 \
     --ngroups2 2 \
-    --ngroups3 4 \
+    --ngroups3 1 \
     --gpu_fraction 0.96 \
     --display 10 \
     #--finetune True \

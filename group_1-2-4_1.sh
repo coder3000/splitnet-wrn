@@ -14,9 +14,9 @@ python train.py --train_dir $train_dir \
     --test_iter 50 \
     --num_residual_units 2 \
     --k 8 \
-    --ngroups1 1 \
+    --ngroups1 4 \
     --ngroups2 2 \
-    --ngroups3 4 \
+    --ngroups3 1 \
     --l2_weight 0.0001 \
     --gamma1 1.0 \
     --gamma2 1.0 \

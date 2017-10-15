@@ -12,9 +12,9 @@ python train_split.py --train_dir $train_dir \
     --test_iter 50 \
     --num_residual_units 2 \
     --k 8 \
-    --ngroups1 1 \
+    --ngroups1 4 \
     --ngroups2 2 \
-    --ngroups3 4 \
+    --ngroups3 1 \
     --l2_weight 0.0005 \
     --initial_lr 0.1 \
     --lr_step_epoch 100.0,140.0 \
